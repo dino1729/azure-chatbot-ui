@@ -27,7 +27,7 @@ export const OpenAIModelSchema = z.object({
 export type OpenAIModel = z.infer<typeof OpenAIModelSchema>;
 
 // in case the `DEFAULT_MODEL` environment variable is not set or set to an unsupported model
-export const fallbackModelID = OpenAIModelID.GPT_4_32K;
+export const fallbackModelID = OpenAIModelID.GPT_4;
 
 export const OpenAIModels: Record<OpenAIModelID, OpenAIModel> = {
   [OpenAIModelID.GPT_3_5]: {
