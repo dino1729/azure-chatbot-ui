@@ -67,6 +67,10 @@ Run with docker-compose:
 docker compose up -d
 ```
 
+```shell
+docker-compose --env-file ./config.env up --build 
+```
+
 ## Running Locally
 
 **1. Clone Repo**

@@ -8,7 +8,8 @@ mongo_user=$(cat .env.local|grep MONGO_INITDB_ROOT_USERNAME|cut -d '=' -f 2)
 mongo_pass=$(cat .env.local|grep MONGO_INITDB_ROOT_PASSWORD|cut -d '=' -f 2)
 mongo_db=$(cat .env.local|grep MONGODB_DB|cut -d '=' -f 2)
 mongo_host=localhost
-mongo_port=27017
+#mongo_port=27018
+mongo_port=$(cat .env.local|grep MONGODB_PORT|cut -d '=' -f 2)
 output="./${mongo_db}.gz"
 while getopts "h:p:d:o:" opt; do
     case $opt in
