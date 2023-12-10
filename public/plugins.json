@@ -1,3 +1,19 @@
 {
-  "urls": ["https://www.klarna.com/.well-known/ai-plugin.json"]
+  "urls": [
+    "https://www.klarna.com/.well-known/ai-plugin.json",
+    "https://www.wolframalpha.com/.well-known/ai-plugin.json",
+    "https://www.wolframcloud.com/.well-known/ai-plugin.json",
+    "https://www.freetv-app.com/.well-known/ai-plugin.json",
+    "https://www.pricerunner.com/.well-known/ai-plugin.json",
+    "https://quickchart.io/.well-known/ai-plugin.json",
+    "https://www.schooldigger.com/.well-known/ai-plugin.json",
+    "https://server.shop.app/.well-known/ai-plugin.json",
+    "https://api.speak.com/.well-known/ai-plugin.json",
+    "https://chat-calculator-plugin.supportmirage.repl.co/.well-known/ai-plugin.json",
+    "https://zapier.com/.well-known/ai-plugin.json",
+    "https://www.transvribe.com/.well-known/ai-plugin.json",
+    "https://www.joinmilo.com/.well-known/ai-plugin.json",
+    "https://domainsg.pt/.well-known/ai-plugin.json",
+    "https://datasette.io/.well-known/ai-plugin.json"
+  ] 
 }
